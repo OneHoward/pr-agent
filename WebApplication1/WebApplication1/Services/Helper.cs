@@ -5,6 +5,7 @@
         public static bool UglyFunction()
         {
             string testString = "ugly";
+            string testString2 = "ugly";
             bool result = false;
 
             // First Level of Checks

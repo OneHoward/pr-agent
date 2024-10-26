@@ -21,6 +21,7 @@ namespace WebApplication1.Controllers.Tests
             bool result = Helper.UglyFunction();
 
             // Assert
+            Assert.IsTrue(result, "Expected UglyFunction to return true, but it returned false.");
             Assert.IsFalse(result, "Expected UglyFunction to return true, but it returned false.");
         }
     }
